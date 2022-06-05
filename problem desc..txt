@@ -1,0 +1,14 @@
+seatsNo (int)
+seatPrice (double)
+Passengers (int)
+driverName (string)
+Assume the Garage is a queue of maximum N cars. Implement the following menu to do the required tasks and operations:
+1.	Add a car to the garage// the car with the same id not allowed to be in the garage in the same time.
+2.	Remove a car // serve the car from the front of the queue. You should specify the # of passengers in this travel
+3.	Forward a car// you should move all cars from the specified car until the front car one step towards the front (shifting all cars one step toward the front). Note that the front will be removed and the second car becomes in the front.
+4.	Insert a car at // insert a car at a specified position in the garage and shift all cars from this position backward one step.
+5.	Print garage information// print all information about all the cars in the garage 
+6.	Garage income// print the total income of the garage
+7.	Super driver// print the driver name that has the maximum income
+8.	Exit
+Note that passengers must be less than or equal seatsNo.
